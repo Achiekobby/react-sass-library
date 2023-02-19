@@ -24,5 +24,13 @@ $base-margin:0.75rem;
 $base-border-thickness:1px;
 $base-border-radius:10px;
 
+
 //* base box shadow
 $base-box-shadow:1px 3px 5px rgba(0, 0, 0, 0.1);
+
+//* Font sizes
+$base-font-size:1rem;
+$font-size-sm: $base-font-size * 0.75;
+$font-size-lg: $base-font-size * 1.5;
+$font-size-xl: $base-font-size * 2;
+$font-size-xxl: $base-font-size * 3;

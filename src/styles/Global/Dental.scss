@@ -1,6 +1,11 @@
 //* Importing the useful css
 @import "../Scss//variables";
 
+//* Bases and Layouts
+@import "../Scss/layout";
+@import "../Scss/breakpoints";
+@import "../Scss/grid";
+
 //* colors
 @import "../Scss//colors" ;
 
