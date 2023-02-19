@@ -1,0 +1,75 @@
+@each $key, $value in $colors{
+  .text-#{$key}{
+    color: $value;
+  }
+
+  .text-hover-#{$key}{
+    &:hover{
+      color: $value;
+    }
+  }
+
+  .bg-#{$key}{
+    background:$value;
+  }
+
+  @if($value != "white" and $value!=black){
+    //Tip Light Variations
+    //* Generating the accent color for each of the items
+    @for $i from 1 through 9{
+      //* text color
+      .text-#{$key}-light-#{$i}{
+        color: mix(#ffffff, $value, $i *10%);
+      }
+
+      //* text hover color
+      .text-hover-#{$key}-light-#{$i}{
+        &:hover{
+          color: mix(#ffffff, $value, $i *10%);
+        }
+      }
+
+      //* Background colors
+      .bg-#{$key}-light-#{$i}{
+        background: mix(#ffffff, $value, $i *10%);
+      }
+
+      //* Background colors on hover
+      .bg-hover-#{$key}-light-#{$i}{
+        &:hover{
+          background: mix(#ffffff, $value, $i *10%);
+        }
+      }
+    }
+
+    //Tip:: Dark Variations
+    @for $i from 1 through 9{
+      //* text color
+      .text-#{$key}-dark-#{$i}{
+        color: mix(#000000, $value, $i *10%);
+      }
+
+      //* text hover color
+      .text-hover-#{$key}-dark-#{$i}{
+        &:hover{
+          color: mix(#000000, $value, $i *10%);
+        }
+      }
+
+      //* Background colors
+      .bg-#{$key}-dark-#{$i}{
+        background: mix(#000000, $value, $i *10%);
+      }
+
+      //* Background colors on hover
+      .bg-hover-#{$key}-dark-#{$i}{
+        &:hover{
+          background: mix(#000000, $value, $i *10%);
+        }
+      }
+
+
+    }
+
+  }
+}

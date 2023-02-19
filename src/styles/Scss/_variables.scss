@@ -1,0 +1,28 @@
+//* color variables
+$primary    :#0F6278;
+$secondary  :#3EC7F8;
+$info       :#FF9A24;
+$default    :#181818;
+
+$colors:(
+  "primary"   :$primary,
+  "secondary" :$secondary,
+  "info"      :$info,
+  "default"   :$default,
+  "blue"      :#257FEB,
+  "purple"    :#7D72FC,
+  "white-shade":#F8F8F8,
+  "white"     :white,
+  "black"     :black
+);
+
+//* Base spacing
+$base-padding:0.75rem;
+$base-margin:0.75rem;
+
+//* borders
+$base-border-thickness:1px;
+$base-border-radius:10px;
+
+//* base box shadow
+$base-box-shadow:1px 3px 5px rgba(0, 0, 0, 0.1);
