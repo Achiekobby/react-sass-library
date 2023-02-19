@@ -10,8 +10,8 @@ const Notifications = () => {
       <h2 className="text-default font-xl">Notifications</h2>
         <div className="mb-2"></div>
         <div className="row">
-          <div className="col-xs-12 col-md-5 col-lg-12">
-            <div className="notice bg-success-light-3 text-white bg-hover-dark-4 p-2">
+          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div className="notice bg-success-light-3 text-success-light-9 bg-hover-dark-4 p-2">
               <div className="notice-content">
                 <FiCheckCircle className="text-white font-lg mr-1"/>
               <div className="notice-body">
@@ -25,8 +25,8 @@ const Notifications = () => {
       <div className="mb-2"></div>
       <div className="container">
         <div className="row">
-          <div className="col-xs-12 col-md-5 col-lg-12">
-            <div className="notice bg-error-light-3 text-white bg-hover-dark-4 p-2">
+          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div className="notice bg-error-light-3 text-error-light-9 bg-hover-dark-4 p-2">
               <div className="notice-content">
                 <BiError className="text-white font-lg mr-1"/>
               <div className="notice-body">
@@ -41,7 +41,7 @@ const Notifications = () => {
       <div className="mb-2"></div>
       <div className="container">
         <div className="row">
-          <div className="col-xs-12 col-md-5 col-lg-12">
+          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <div className="notice bg-info-light-3 text-white bg-hover-dark-4 p-2">
               <div className="notice-content">
                 <RiFolderWarningLine className="text-white font-lg mr-1"/>
@@ -57,7 +57,7 @@ const Notifications = () => {
       <div className="mb-2"></div>
       <div className="container">
         <div className="row">
-          <div className="col-xs-12 col-md-5 col-lg-12">
+          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <div className="notice bg-secondary-light-3 text-white bg-hover-dark-4 p-2">
               <div className="notice-content">
                 <FaInfo className="text-white font-lg mr-1"/>
