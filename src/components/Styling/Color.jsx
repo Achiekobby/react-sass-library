@@ -66,6 +66,20 @@ const Color = () => {
         </div>
       </div>
       <div className="container">
+        <h4 className="font-lg text-default">Success Color Accent</h4>
+        <div className="row">
+          <span class=" p-2 bg-success-dark-8 text-white">success dark 8</span>
+          <span class="p-2 bg-success-dark-6 text-white">success dark 6</span>
+          <span class="p-2 bg-success-dark-4 text-white">success dark 4</span>
+          <span class="p-2 bg-success-dark-2 text-white">success dark 2</span>
+          <span class="p-2 bg-success text-white">success</span>
+          <span class="p-2 bg-success-light-2 text-white">success light 2</span>
+          <span class="p-2 bg-success-light-4 text-white">success light 4</span>
+          <span class="p-2 bg-success-light-6 text-white">success light 6</span>
+          <span class="p-2 bg-success-light-8 text-white">info light 8</span>
+        </div>
+      </div>
+      <div className="container">
         <h4 className="font-lg text-default">Error Color Accent</h4>
         <div className="row">
           <span class=" p-2 bg-error-dark-8 text-white">error dark 8</span>

@@ -40,6 +40,12 @@
           background: mix(#ffffff, $value, $i *10%);
         }
       }
+
+      .bg-hover-#{$key}-dark-#{$i}{
+        &:hover{
+          background: mix(#000000, $value, $i *10%);
+        }
+      }
     }
 
     //Tip:: Dark Variations

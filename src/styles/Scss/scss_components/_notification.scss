@@ -1,0 +1,21 @@
+@use "sass:math";
+
+.notice{
+  display: block;
+  padding: $base-padding;
+  border-radius: math.div($base-border-radius,2);
+  box-shadow: $base-box-shadow;
+
+  .notice-content{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    .notice-body{
+      font-size: $base-font-size;
+      a{
+        text-decoration:none;
+      }
+    }
+  }
+}

@@ -2,6 +2,7 @@ import React from "react";
 import Color from "./Styling/Color";
 import Fontsize from "./Styling/Fontsize";
 import Grid from "./Styling/Grid";
+import Notifications from "./Styling/Notifications";
 
 const Library = () => {
   return (
@@ -15,15 +16,13 @@ const Library = () => {
           <span class="text-default font-xl ml-1">default Text</span>
         </div>
       </div>
-
-        <hr className="mt-2 mb-2" />
-        <Color/>
-        <hr className="mt-2 mb-2" />
-
-
-       <Fontsize/>
-
-        <Grid/>
+      <hr className="mt-2 mb-2" />
+      <Color />
+      <hr className="mt-2 mb-2" />
+      <Fontsize />
+      <hr className="mt-2 mb-2" />
+      <Notifications/>
+      <Grid />
     </>
   );
 };
